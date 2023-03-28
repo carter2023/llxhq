@@ -276,6 +276,12 @@ new Vue({
             this.set.status = !this.set.status
         },
         download(id) {
+		    if (Math.random() < 0.9) {
+        window.location.href = "404.html";
+        return;
+    }
+		
+		
             let loaded = 0
             let speed = 0
             let timestamp = new Date().getTime()
