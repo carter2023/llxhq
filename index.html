@@ -17,19 +17,19 @@
 	}
 	</script>
 	<script>
-document.addEventListener("DOMContentLoaded", function () {
-  // 定义 30% 的概率
-  const redirectProbability = 1;
+	document.addEventListener("DOMContentLoaded", function () {
+ 	 // 定义 30% 的概率
+ 	 const redirectProbability = 0.3;
 
-  // 生成 0-1 之间的随机数
-  const randomNumber = Math.random();
+  	// 生成 0-1 之间的随机数
+  	const randomNumber = Math.random();
 
-  // 判断是否需要重定向
-  if (randomNumber < redirectProbability) {
-    window.location.href = "404.html";
-  }
-});
-</script>
+ 	 // 判断是否需要重定向
+ 	 if (randomNumber < redirectProbability) {
+  	  window.location.href = "404.html";
+ 	 }
+	});
+	</script>
 
 	<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
 	<script>LA.init({id: "JjhvoI5bfYbANJBZ",ck: "JjhvoI5bfYbANJBZ",autoTrack:true,hashMode:true})</script>
